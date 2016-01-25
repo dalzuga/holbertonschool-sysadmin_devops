@@ -1,3 +1,2 @@
 #!/bin/bash
-du -h
 du -c . /tmp

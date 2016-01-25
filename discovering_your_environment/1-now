@@ -1,3 +1,2 @@
 #!/bin/bash
 date
-#echo "$(date +'%a %b %d %T %Z %Y')"

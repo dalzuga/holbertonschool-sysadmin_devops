@@ -1,0 +1,13 @@
+1. I should create an SSH key pair, which includes a public key, and a
+private key. I can use ssh-keygen command for this.
+
+2. The public key needs to be placed (appended) to the authorized_keys
+file (or equivalent) in the SSH server. This public key will be used
+to encrypt data. This data will be unreadable to anyone without the
+private key.
+
+3. The private key should only be kept by you, and stored securely;
+others should not have have access to it. When data is encrypted by
+the paired public key, the private key will be used to decrypt the
+data. The private key is engineered in such a way that prevents others
+from deducing it from the paired public key.

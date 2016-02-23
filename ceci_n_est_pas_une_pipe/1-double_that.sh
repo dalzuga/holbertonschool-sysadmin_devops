@@ -1,2 +1,2 @@
 #!/bin/bash
-cat list | cat | grep o
+cat list | sort | grep o

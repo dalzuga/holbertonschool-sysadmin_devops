@@ -15,4 +15,6 @@ case $2 in
 	;;
 esac
 
-scp "$FILENAME" "admin@$3:/var/www/html/"
+scp -q "$FILENAME" "admin@$3:/var/www/html/"
+echo "$FILENAME"
+echo "Listen to the message on http://$3/$FILENAME"

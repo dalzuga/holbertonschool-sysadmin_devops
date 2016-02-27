@@ -5,12 +5,14 @@ FILENAME+=.m4a
 
 case $2 in
     m)
-	say -o $FILENAME -v Daniel $1;
+	say -v Daniel -o $FILENAME $1;
 	;;
     f)
-	say -o $FILENAME -v Agnes $1;
+	say -v Agnes -o $FILENAME $1;
 	;;
     x)
-	say -o $FILENAME -v Zarvox $1;
+	say -v Zarvox -o $FILENAME $1;
 	;;
 esac
+
+scp "$FILENAME" "admin@$3:/var/www/html/"

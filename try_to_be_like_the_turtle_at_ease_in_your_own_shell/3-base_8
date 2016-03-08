@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Octal NUM1   : $NUM1"
+echo "Octal NUM2   : $NUM2"
+echo "Decimal NUM1 : $(( 8#$NUM1 ))"
+echo "Decimal NUM2 : $(( 8#$NUM2 ))"
+printf "%o\n" $(( 8#$NUM1 + 8#$NUM2 ))

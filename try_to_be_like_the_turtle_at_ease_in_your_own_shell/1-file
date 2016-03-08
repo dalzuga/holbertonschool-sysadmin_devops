@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "Hello Holberton"
-echo '\*\\'"'"'"'"Holberton School"'"'\\"'"\\\\\*\$\\\?'\*\*\*\*\*:)'
+echo "Hello Holberton" > '\*\\'"'"'"'"Holberton School"'"'\\"'"\\\\\*\$\\\?'\*\*\*\*\*:)'

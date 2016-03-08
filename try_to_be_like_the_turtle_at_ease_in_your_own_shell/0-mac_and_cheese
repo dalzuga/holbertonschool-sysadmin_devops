@@ -1,2 +1,2 @@
-#/bin/bash
+#!/bin/bash
 ifconfig -a | grep -Eo "[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}:[[:xdigit:]]{2}"

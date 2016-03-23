@@ -1,1 +1,6 @@
 #!/usr/bin/ruby
+from = ARGV[0].match(/\[from:(.{0,12})\]/).captures
+to = ARGV[0].match(/\[to:(.{0,12})\]/).captures
+flags = ARGV[0].match(/\[flags:(.{0,14})\]/).captures
+
+printf("%s, %s, %s\n", from[0], to[0], flags[0])

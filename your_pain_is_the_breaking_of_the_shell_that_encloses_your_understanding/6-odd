@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | sed '0~2d'
+sed '0~2d'

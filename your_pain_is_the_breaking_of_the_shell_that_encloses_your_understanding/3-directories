@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -R | find -mindepth 1 -type d -printf '%f\n'
+ls -R | find -mindepth 1 -type d -printf '%f\n' | wc -l

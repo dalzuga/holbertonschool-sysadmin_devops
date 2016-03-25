@@ -1,1 +1,2 @@
 #!/bin/bash
+ls -R | find *.gif -type f -printf '%f\n'
